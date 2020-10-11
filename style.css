@@ -1,0 +1,132 @@
+
+/* Text Setting */
+
+head{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    max-height: 100%;
+    background-image: repeating-linear-gradient(90deg, rgb(95, 152, 225) 0px, rgb(95, 152, 225) 10px,rgb(115, 164, 229) 10px, rgb(115, 164, 229) 20px,rgb(135, 175, 233) 20px, rgb(135, 175, 233) 30px,rgb(214, 222, 250) 30px, rgb(214, 222, 250) 40px,rgb(174, 199, 242) 40px, rgb(174, 199, 242) 50px,rgb(155, 187, 238) 50px, rgb(155, 187, 238) 60px,rgb(194, 210, 246) 60px, rgb(194, 210, 246) 70px);
+}
+
+*{ 
+    box-sizing:border-box ;
+}
+
+.left p{
+    color:#007BA7; 
+    font-size: 27px;
+    font-weight: 1000;
+}
+.detail { 
+    color :#89CFF0;
+    font-family: 'Times New Roman' ; 
+    margin-top : 5px ;
+}
+.isi { 
+    color : #007BA7;
+    font-size: 20px;
+}
+h1 {
+    color : rgb(0, 190, 190) ; 
+    margin-left: 15px; 
+    font-size: 50px;
+    margin-right: 15px;
+}
+h3 {
+    margin-bottom: 5px;
+}
+h4 {
+    margin-bottom: 5px; 
+    font-size:medium;
+}
+.edu{
+    color :darkturquoise; 
+    margin-top : 20px;
+    font-family: Arial;
+    font-size: 30px;
+}
+.hilang {
+    display:none;
+}
+
+h2 img{
+    max-width:7%; 
+}
+#expku{
+    font-size: 40px;
+}
+
+.row{
+    max-height: 100%;
+}
+#cpku{
+    border-color:aqua;
+    border-style:dotted ; 
+    border-width: 2px;
+}
+/* drop using transition */
+.cphilang {
+    display: hidden;  
+    opacity: 0;  
+    transition: 0.25s ;
+}
+/* Dividing Column */
+
+.column {
+    float: left;
+    padding: 10px;
+}
+.left { width : 38% ; 
+    font-size : small; 
+    padding-top:1cm ; 
+    border-right-style: solid ;
+    border-width: 2px; 
+    border-color: rgb(32, 151, 206);
+    background-color: rgba(245, 245, 245,0.9);
+    
+}
+.mid {width : 38% ; 
+    font-size :small;
+    background-color :rgba(202, 250, 234,0.9) ;
+    
+}
+
+.right{width:23%;
+    margin-left:1%;
+    background-color: rgba(245, 245, 245,0.7);
+    margin-top: 20%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display:table;
+    clear: both;
+}
+/* Images setting */
+img{ 
+    margin-left: 0.2cm
+}
+/* hovering */
+#calend:hover + span {
+    display: inline;
+}
+
+#alamat:hover + span {
+    display: inline;
+}
+#cpku:hover + h2 {
+    display: block; 
+    opacity: 1;
+}
+/* dropdown */
+.classexp {
+    visibility: hidden;
+    font-size: 23px;
+}
+#expku:hover + h4 > div.classexp {
+    visibility: visible;
+    transition: 0.25s;
+}
