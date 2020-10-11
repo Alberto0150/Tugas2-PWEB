@@ -67,6 +67,10 @@ h2 img{
     border-style:dotted ; 
     border-width: 2px;
 }
+
+ul{
+    color: cornflowerblue;
+}
 /* drop using transition */
 .cphilang {
     display: hidden;  
@@ -94,10 +98,9 @@ h2 img{
     
 }
 
-.right{width:23%;
-    margin-left:1%;
+.right{width:22%;
     background-color: rgba(245, 245, 245,0.7);
-    margin-top: 20%;
+    margin:5% 1%;
     text-align: center;
 }
 .row:after {
@@ -129,4 +132,12 @@ img{
 #expku:hover + h4 > div.classexp {
     visibility: visible;
     transition: 0.25s;
+}
+
+
+/* IFRAME */
+
+#Page2{
+    background-color :rgba(202, 250, 234,0.9) ;
+    font-size: 20px;
 }
