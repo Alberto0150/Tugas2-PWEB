@@ -141,3 +141,15 @@ img{
     background-color :rgba(202, 250, 234,0.9) ;
     font-size: 20px;
 }
+
+.custom-button{
+    background-color: rgba(202, 250, 234,0.9);
+    border-radius: 20px;
+    border-style: dotted;
+    margin: 0 20%;
+}
+
+.right a{
+    
+    font-size: 28px;
+}

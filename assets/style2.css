@@ -100,3 +100,17 @@ tr:nth-child(even){
     border-style: dashed;
     border-width: 5px;
 }
+/* button back */
+.custom-button{
+    margin-top: 30px;
+    background-color: rgba(202, 250, 234,0.9);
+    border-radius: 20px;
+    border-style: dotted;
+    margin: 0 30%;
+    text-align: center;
+}
+
+.custom-button a{
+    
+    font-size: 28px;
+}
